@@ -1,9 +1,12 @@
+Istall rsync: 
+
+sudo apt get update
+sudo apt-get install rsync
+
+
 Make the script executable with:
 
-
-
 chmod +x backup.sh
-
 
 Configure the Cron Job:
 
