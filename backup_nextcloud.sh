@@ -11,5 +11,5 @@ mkdir -p $DESTINATION
 for SOURCE in "${SOURCES[@]}"
 do
     # Run rsync to perform an incremental backup
-    rsync -av --delete $SOURCE/ $DESTINATION
+    /usr/bin/rsync -av --delete $SOURCE/ $DESTINATION
 done
