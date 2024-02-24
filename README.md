@@ -1,3 +1,10 @@
+Make the script executable with:
+
+
+
+chmod +x backup.sh
+
+
 Configure the Cron Job:
 
 Open the crontab file with:
