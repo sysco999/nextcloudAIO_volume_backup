@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define source directories and destination path
-SOURCES=("/var/lib/docker/volumes/nextcloud_aio_nextcloud" "/var/lib/docker/volumes/nextcloud_aio_database" "/var/lib/docker/volumes/nextcloud_aio_database_dump" "/var/lib/docker/volumes/nextcloud_aio_nextcloud_data" "/var/lib/docker/volumes/nextcloud_aio_apache" "/var/lib/docker/volumes/nextcloud_aio_mastercontainer" "/var/lib/docker/volumes/nextcloud_aio_redis" "/var/lib/docker/volumes/metadata.db")
+SOURCES=("/var/lib/docker/volumes/nextcloud_aio_nextcloud" "/var/lib/docker/volumes/nextcloud_aio_database" "/var/lib/docker/volumes/nextcloud_aio_database_dump" "/var/lib/docker/volumes/nextcloud_aio_nextcloud_data" "/var/lib/docker/volumes/nextcloud_aio_apache" "/var/lib/docker/volumes/nextcloud_aio_mastercontainer" "/var/lib/docker/volumes/nextcloud_aio_redis" )
 DESTINATION="/mnt/sdb/data/nextcloud_backup"
 
 # Create the destination directory if it doesn't exist
